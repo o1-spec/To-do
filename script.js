@@ -3,8 +3,10 @@ const inputValue = document.getElementById('input').value
 const add = document.querySelector('.add')
 const text = document.querySelector('.to-do')
 const flex = document.querySelector('.flex')
-
-
+const date = document.querySelector('.date')
+const day = new Date()
+const year = day.getFullYear()
+date.innerHTML = year;
 
 function toDo(){
     add.addEventListener('click',function(e){
