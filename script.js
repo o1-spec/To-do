@@ -23,7 +23,7 @@ function toDo(){
         <ion-icon class="delete" name="trash-bin-outline"></ion-icon>
     </div>`;
 
-    //To do delete
+    //Todo delete
     const del = document.querySelectorAll('.delete')
     for(let i = 0; i < del.length; i++){
         del[i].onclick = function(){
